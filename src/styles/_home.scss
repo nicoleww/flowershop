@@ -1,0 +1,45 @@
+.Home {
+  @include basicPageStylings;
+  @include displayFlexCenter(row);
+}
+
+.landing-text {
+  width: 50%;
+  @include displayFlexCenter(column);
+}
+
+.headline {
+  font-size: 48px;
+  margin-left: 70px;
+}
+
+.landing-btn {
+  margin-top: 90px;
+}
+
+.landing-btn button {
+  padding: 10px;
+  font-family: "Yellowtail", sans-serif;
+  font-size: 26px;
+  letter-spacing: 2px;
+  background-color: $darkBackground;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 5%;
+}
+
+.landing-btn button:hover {
+  transform: translateY(-4%) scale(1.05);
+}
+
+.landing-img {
+  width: 50%;
+  @include displayFlexCenter(row);
+}
+
+.landing-img img {
+  width: 600px;
+  height: 700px;
+  object-fit: cover;
+  border-radius: 3%;
+}
