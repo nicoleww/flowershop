@@ -1,7 +1,7 @@
 // import packages
 import React from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
-import './App.css';
+import "./styles/style.css";
 
 // import pages
 import HomePage from "./pages/HomePage";
