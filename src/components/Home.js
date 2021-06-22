@@ -6,7 +6,7 @@ const Home = () => {
         <div className="Home">
             <div className="landing-text">
                 <div className="headline">
-                    <h2>hand-crafted florals arrangements for your special day or your everyday.</h2>
+                    <h2>hand-crafted floral arrangements for your special day or your everyday.</h2>
                 </div>
                 <div className="landing-btn">
                     <button>contact us</button>
