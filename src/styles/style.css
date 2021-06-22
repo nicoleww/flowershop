@@ -102,6 +102,11 @@
   width: 100%;
 }
 
+.about-sect-one,
+.about-sect-two {
+  margin: 100px 0px;
+}
+
 .about-sect-one img,
 .about-sect-two img {
   width: 500px;
@@ -113,7 +118,13 @@
 
 .about-sect-one p,
 .about-sect-two p {
-  width: 50%;
+  width: 40%;
+  color: #ffe9e9;
+  font-size: 20px;
+}
+
+.about-sect-one p {
+  margin-right: 80px;
 }
 
 .about-sect-one {
