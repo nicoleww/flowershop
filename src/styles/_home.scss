@@ -28,6 +28,11 @@
   border-radius: 5%;
 }
 
+.landing-btn a {
+  color: white;
+  text-decoration: none;
+}
+
 .landing-btn button:hover {
   transform: translateY(-4%) scale(1.05);
 }

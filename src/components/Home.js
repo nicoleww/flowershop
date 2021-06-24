@@ -1,5 +1,6 @@
 import React from 'react';
 import PinkFlowers from "../images/pink-flowers.jpg";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -9,7 +10,7 @@ const Home = () => {
                     <h2>hand-crafted floral arrangements for your special day or your everyday.</h2>
                 </div>
                 <div className="landing-btn">
-                    <button>contact us</button>
+                    <button><Link to="/contact">contact us</Link></button>
                 </div>
             </div>
             <div className="landing-img">

@@ -4,30 +4,27 @@
   width: 100%;
 }
 
-.about-sect-one,
-.about-sect-two {
+.about-sect {
   margin: 100px 0px;
 }
 
-.about-sect-one img,
-.about-sect-two img {
+.about-sect img {
   width: 500px;
   height: 600px;
   object-fit: cover;
   border-radius: 3%;
 }
 
-.about-sect-one p,
-.about-sect-two p {
+.about-sect p {
   width: 40%;
   color: $lightFont;
   font-size: 20px;
 }
 
-.about-sect-one p {
+.about-sect p {
   margin-right: 80px;
 }
 
-.about-sect-one {
+.about-sect {
   @include displayFlexCenter(row);
 }
