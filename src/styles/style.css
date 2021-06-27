@@ -145,6 +145,48 @@
           flex-direction: row;
 }
 
+.Work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 92vh;
+  width: 100%;
+}
+
+.work-text {
+  width: 70%;
+  margin: 100px 0px 50px 0px;
+  color: #ffe9e9;
+  font-size: 18px;
+}
+
+.work-text p {
+  margin: 50px;
+}
+
+.work-gallery {
+  width: 1080px;
+  min-height: 100px;
+}
+
+.work-gallery img {
+  height: 350px;
+  width: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 5px;
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -1,0 +1,28 @@
+.Work {
+  @include displayFlexCenter(column);
+  min-height: 92vh;
+  width: 100%;
+}
+
+.work-text {
+  width: 70%;
+  margin: 100px 0px 50px 0px;
+  color: $lightFont;
+  font-size: 18px;
+}
+
+.work-text p {
+  margin: 50px;
+}
+
+.work-gallery {
+  width: 1080px;
+  min-height: 100px;
+}
+
+.work-gallery img {
+  height: 350px;
+  width: 350px;
+  object-fit: cover;
+  margin: 5px;
+}
