@@ -103,12 +103,12 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-height: 100vh;
+  min-height: 92vh;
   width: 100%;
 }
 
 .about-sect {
-  margin: 100px 0px;
+  margin: 50px 0px;
 }
 
 .about-sect img {
