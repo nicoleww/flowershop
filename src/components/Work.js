@@ -7,6 +7,9 @@ import peachFlowers from "../images/peachy.jpg";
 import redFlowers from "../images/redflowers-dark.jpg";
 
 const Work = () => {
+
+
+
     return (
         <div className="Work">
             <div className="work-text">
@@ -20,6 +23,14 @@ const Work = () => {
                 <img src={peachAndWhiteFlowers} alt="peach and white hued flowers" />
                 <img src={peachFlowers} alt="a photo of peach color flowers" />
                 <img src={redFlowers} alt="peach and red color flowers on a dark background" />
+            </div>
+            <div className="modal">
+                <div className="modal-img">
+                    <div className="exit">
+                    <p>x</p>
+                    </div>
+                    {/* img goes here */}
+                </div>
             </div>
         </div>
     )
